@@ -1,8 +1,8 @@
-import { generateYAxis } from '@/app/lib/utils';
+import { generateYAxis } from '@/app/(backend)/lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
-import { Revenue } from '@/app/lib/definitions';
-import { fetchRevenue } from '@/app/lib/data';
+import { lusitana } from '@/app/(frontend)/ui/fonts';
+import { Revenue } from '@/app/(backend)/lib/definitions';
+import { fetchRevenue } from '@/app/(backend)/lib/data';
 
 
 // This component is representational only.

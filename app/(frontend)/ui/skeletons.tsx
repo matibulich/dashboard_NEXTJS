@@ -1,4 +1,4 @@
-import { Revenue } from '@/app/lib/definitions';
+import { Revenue } from '@/app/(backend)/lib/definitions';
 
 // Loading animation
 const shimmer =

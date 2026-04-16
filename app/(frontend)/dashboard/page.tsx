@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import RevenueChart from "../ui/dashboard/revenue-chart";
-import { RevenueChartSkeleton } from "../ui/skeletons";
-import LatestInvoices from "../ui/dashboard/latest-invoices";
+import RevenueChart from "@/app/(frontend)/ui/dashboard/revenue-chart";
+import { RevenueChartSkeleton } from "@/app/(frontend)/ui/skeletons";
+import LatestInvoices from "@/app/(frontend)/ui/dashboard/latest-invoices";
 
 
 export default async function PageDashboard() {
@@ -24,7 +24,7 @@ export default async function PageDashboard() {
           <Suspense fallback={
           <>
             <div>Cargando</div>
-            <RevenueChartSkeleton revenue={[]}  />
+            <RevenueChartSkeleton />
             
           </>
         }>
